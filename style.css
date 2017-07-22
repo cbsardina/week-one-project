@@ -26,6 +26,7 @@ html, body {
   font-family: 'Merriweather', serif;
 }
 
+/* +++++++++++++++ INDEX.HTML +++++++++++++++ */
 
 /* === HEADER === */
 
@@ -39,11 +40,15 @@ header {
 header nav {
   margin: 0 auto;
   align-self: center;
+  font-family: 'Roboto', sans-serif;
 }
 nav a {
   text-transform: uppercase;
   padding: 0 2em;
   color: #2B2F26;
+}
+nav a:nth-child(3) {
+  padding-right: 100px;
 }
 nav a:hover {
   color: #CD5D67;
@@ -55,6 +60,7 @@ nav a:active {
 /* ===== MAIN ===== */
 
 main {
+  width: 100%;
   padding: 1em;
 }
 main h1 {
@@ -90,7 +96,7 @@ main h2 {
 .product-1 {
   background-image: url("images/optimized/product-1.jpg");
   background-size: 100% 100%;
-  width: 59%;
+  width: 60%;
   height: 25em;
   padding: 1em;
   padding: 0;
@@ -129,12 +135,12 @@ main h2 {
   background-color: rgba( 0, 0, 0, 0.8 );
   font-weight: 400;
   padding: 1em;
-  margin-top: 15em;
+  margin-top: 13em;
 }
 .product-4 {
   background-image: url("images/optimized/product-4.jpg");
   background-size: 100% 100%;
-  width: 59%;
+  width: 19%;
   height: 18em;
   padding: 1em;
   padding: 0;
@@ -149,7 +155,7 @@ main h2 {
 .product-6 {
   background-image: url("images/optimized/product-6.jpg");
   background-size: 100% 100%;
-  width: 19%;
+  width: 39%;
   height: 18em;
   padding: 0;
 }
@@ -161,13 +167,13 @@ main h2 {
   padding: 0;
 }
 
-
-
-
 /* ===== FOOTER ===== */
 footer {
+  width: 100%;
+  margin: 0;
+  padding: 1em;
   background-color: rgba( 0, 0, 0, 0.8 );
   color: #fff;
-  padding: 1em;
   font-weight: bolder;
+
 }

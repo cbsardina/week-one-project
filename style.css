@@ -333,14 +333,37 @@ Input Border Bottom (Focus): #967343*/
 .form_section {
   background-color: #fff;
   margin: 6em auto 3em auto;
+  padding: 0;
   height: 300px;
   width: 500px;
   display: flex;
-  flex-flow: column nowrap;
 }
-form {
+.form_section form {
   background-color: #fff;
+  margin: 10px auto;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  /*align-content: space-around;*/
 }
+.form_section > form h3, h4, input {
+  align-self: center;
+}
+.form_section h3 {
+  margin: .25em auto 0 auto;
+  font-size: 1.6em;
+  font-weight: 200;
+}
+.form_section h4 {
+  margin-top: 0;
+  font-size: 1.2em;
+  font-weight: 300;
+}
+input [type=text] {
+  border: none;
+  width: 200px;
+}
+
 
 
 

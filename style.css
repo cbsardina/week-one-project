@@ -1,36 +1,21 @@
-/*Background: #F2F1E8
-Text: #131511
-Inline Link: #968772
-Inline Link (Hover): #967343
-Navigation Background: #FFFFFF
-Navigation Text: #2B2F26
-Navigation Text (Hover): #CD5D67
-Navigation Text (Active) #968772
-Button Background: #968772
-Button Background (Hover): #967343
-Button Text: #F2F1E8
-Button Text (Hover): #FFFFFF
-Input Border Bottom: #968772
-Input Border Bottom (Focus): #967343*/
-/*
-font-family: 'Merriweather', serif;
-font-family: 'Roboto', sans-serif;*/
-
-
 html, body {
   width: 100%;
   height: auto;
   margin: 0;
   padding: 0;
+  line-height: 1.8;
   background-color: #F2F1E8;
   font-family: 'Merriweather', serif;
 }
 
+/* ++++++++++++++++++++++++++++++++++++++++++ */
 /* +++++++++++++++ INDEX.HTML +++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++ */
 
-/* === HEADER === */
+/* ========== HEADER ==================== */
 
 header {
+  position: fixed;
   width: 100%;
   margin: 0;
   padding: 1em;
@@ -57,17 +42,20 @@ nav a:active {
   color: #968772;
 }
 
-/* ===== MAIN ===== */
+/* ========== MAIN ====================== */
 
 main {
   width: 100%;
   padding: 1em;
 }
+main section {
+  padding-top: 2em;
+}
 main h1 {
   text-align: center;
   font-size: 4.5em;
   font-weight: 500;
-  margin-bottom: .25em;
+  margin-bottom: .25em
 }
 main h2 {
   text-align: center;
@@ -76,7 +64,7 @@ main h2 {
   margin-top: .25em;
   margin-bottom: 1.3em;
 }
-/* MAIN - IMAGE ROW1 */
+/* --- MAIN - image_row_1 --- */
 .image_row_1 {
   width: 100%;
   margin: 0 auto;
@@ -120,7 +108,8 @@ main h2 {
   height: 25em;
   padding: 0;
 }
-/* MAIN - IMAGE ROW2 */
+
+/* --- MAIN - image_row_2 --- */
 .image_row_2 {
   width: 100%;
   margin: 0 auto;
@@ -172,7 +161,7 @@ main h2 {
   padding: 0;
 }
 
-/* ===== FOOTER ===== */
+/* ========== FOOTER ====================== */
 footer {
   width: 100%;
   margin: 0;
@@ -182,3 +171,55 @@ footer {
   font-weight: bolder;
 
 }
+
+/*Background: #F2F1E8
+Text: #131511
+Inline Link: #968772
+Inline Link (Hover): #967343
+Navigation Background: #FFFFFF
+Navigation Text: #2B2F26
+Navigation Text (Hover): #CD5D67
+Navigation Text (Active) #968772
+Button Background: #968772
+Button Background (Hover): #967343
+Button Text: #F2F1E8
+Button Text (Hover): #FFFFFF
+Input Border Bottom: #968772
+Input Border Bottom (Focus): #967343*/
+
+/* ++++++++++++++++++++++++++++++++++++++++++ */
+/* +++++++++++++++ ABOUT.HTML +++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++ */
+
+/*Header and Footer properties inherited from index.html*/
+
+/* ========== MAIN ====================== */
+
+/* --- SECTION - top_main --- */
+.top_main h1 {
+  text-align: center;
+  font-size: 4.5em;
+  font-weight: 500;
+}
+.main_about {
+  width: 60%;
+  margin: 0 auto;
+}
+.top_main img {
+  width: 9em;
+  height: 7.5em;
+  float: left;
+  margin: 0 1.2em 1em 0;
+}
+.top_main p, blockquote {
+  font-size: 1.4em;
+}
+
+
+
+/* --- SECTION - middle_main --- */
+
+
+
+
+/* --- SECTION - bottom_main --- */

@@ -250,13 +250,31 @@ Input Border Bottom (Focus): #967343*/
   box-sizing: border-box;
   height: 20em;
   color: #fff;
-
 }
-
-
-
 /* --- SECTION - bottom_main --- */
 .bottom_main {
   width: 64%;
   margin: 0 auto;
+  padding-top: 0;
+}
+.bottom_main h3 {
+  font-size: 2em;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.bottom_main p {
+  font-size: 1.4em
+}
+.bottom_main figure {
+  margin: 0;
+  padding: 0;
+  padding-top: 6em;
+  float: right;
+  width: 9.3em;
+  font-size: .92em;
+  color: gray
+}
+.bottom_main figure img {
+  width: 9.6em;
+  height: 7.5em;
 }

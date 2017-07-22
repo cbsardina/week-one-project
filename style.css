@@ -65,11 +65,16 @@ main {
 }
 main h1 {
   text-align: center;
-  font-size: 4em;
+  font-size: 4.5em;
+  font-weight: 500;
+  margin-bottom: .25em;
 }
 main h2 {
   text-align: center;
-  font-size: 2.5em;
+  font-size: 3em;
+  font-weight: 500;
+  margin-top: .25em;
+  margin-bottom: 1.3em;
 }
 /* MAIN - IMAGE ROW1 */
 .image_row_1 {

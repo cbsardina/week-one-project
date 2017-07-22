@@ -328,14 +328,14 @@ Input Border Bottom (Focus): #967343*/
   background-position: top;
   width: 100%;
   box-sizing: border-box
-  height: 500px;
+  height: 50em;
 }
 .form_section {
   background-color: #fff;
   margin: 6em auto 3em auto;
   padding: 0;
-  height: 300px;
-  width: 500px;
+  height: 400px;
+  width: 550px;
   display: flex;
 }
 .form_section form {
@@ -344,7 +344,6 @@ Input Border Bottom (Focus): #967343*/
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-around;
-  /*align-content: space-around;*/
 }
 .form_section > form h3, h4, input {
   align-self: center;
@@ -359,10 +358,31 @@ Input Border Bottom (Focus): #967343*/
   font-size: 1.2em;
   font-weight: 300;
 }
-input [type=text] {
+.input_text {
   border: none;
-  width: 200px;
+  border-bottom: 2px solid #968772;
+  width: 100%;
+  font-size: 1em;
+  color: rgb(117, 117, 117);
+  padding: 2px;
 }
+textarea:focus, input:focus {
+  outline: none;
+  border-bottom: 2px solid #967343;:
+}
+.input_submit {
+  border: none;
+  color: #F2F1E8;
+  background-color: #968772;
+  font-size: 1.2em;
+  padding: .75em 1.5em;
+  margin: 20px auto;
+}
+.input_submit:hover {
+  background-color: #967343;
+  color: #ffffff;
+}
+
 
 
 

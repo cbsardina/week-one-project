@@ -65,3 +65,55 @@ main h2 {
   text-align: center;
   font-size: 2.5em;
 }
+/* MAIN - IMAGE ROW1 */
+.image_row_1 {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+.image_row_1 ul li {
+  list-style: none;
+}
+.product-1 {
+  background-image: url("images/optimized/product-1.jpg");
+}
+.product-2 {
+  background-image: url("images/optimized/product-2.jpg");
+}
+.product-3 {
+  background-image: url("images/optimized/product-3.jpg");
+}
+/* MAIN - IMAGE ROW2 */
+.image_row_2 {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+.image_row_2 ul li {
+  list-style: none;
+}
+.product-4 {
+  background-image: url("images/optimized/product-4.jpg");
+}
+.product-5 {
+  background-image: url("images/optimized/product-5.jpg");
+}
+.product-6 {
+  background-image: url("images/optimized/product-6.jpg");
+}
+.product-7 {
+  background-image: url("images/optimized/product-7.jpg");
+}
+
+
+
+
+
+
+/* ===== FOOTER ===== */
+footer {
+  background-color: rgba( 0, 0, 0, 0.8 );
+  color: #fff;
+  padding: 1em;
+  font-weight: bolder;
+}

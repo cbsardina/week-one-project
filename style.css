@@ -208,7 +208,7 @@ Input Border Bottom (Focus): #967343*/
   font-weight: 500;
 }
 .top_main {
-  width: 64%;
+  width: 70%;
   margin: 0 auto;
 }
 .top_main img {
@@ -224,7 +224,7 @@ Input Border Bottom (Focus): #967343*/
   color: #967343;
 }
 .top_main p, blockquote {
-  font-size: 1.4em;
+  font-size: 1.2em;
 }
 .top_main blockquote {
   border-left: solid 2px gray;
@@ -251,9 +251,10 @@ Input Border Bottom (Focus): #967343*/
   height: 20em;
   color: #fff;
 }
+
 /* --- SECTION - bottom_main --- */
 .bottom_main {
-  width: 64%;
+  width: 70%;
   margin: 0 auto;
   padding-top: 0;
 }
@@ -263,7 +264,7 @@ Input Border Bottom (Focus): #967343*/
   margin-bottom: 0;
 }
 .bottom_main p {
-  font-size: 1.4em
+  font-size: 1.2em
 }
 .bottom_main figure {
   margin: 0;
@@ -272,9 +273,51 @@ Input Border Bottom (Focus): #967343*/
   float: right;
   width: 9.3em;
   font-size: .92em;
-  color: gray
+  color: rgb(149, 130, 110);
 }
 .bottom_main figure img {
   width: 9.6em;
   height: 7.5em;
 }
+.bottom_table {
+  padding-top: 2em;
+}
+.bottom_table table{
+  border-collapse: collapse;
+  width: 84%;
+  margin-bottom: 3em;
+}
+.tr_align {
+  text-align: center;
+}
+.bottom_table table td {
+  border: 1px solid black;
+  padding: .3em .5em;
+  font-size: 1.2em;
+}
+.tr_color {
+  background-color: rgb(243, 233, 221);
+}
+
+
+
+/*from puppy love*/
+/*table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 3em;
+}
+table, td {
+  border: 1px solid black;
+}
+thead {
+  background: #1fabe5;
+  color: #fff;
+}
+td {
+  padding: 1em 1em 1em 1em;
+}
+table img {
+  max-width: 6em;
+  max-height: 6em;
+}*/

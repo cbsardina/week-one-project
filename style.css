@@ -196,13 +196,18 @@ Input Border Bottom (Focus): #967343*/
 
 /* ========== MAIN ====================== */
 
+.main_about {
+  margin: 0;
+  padding: 0;
+}
+
 /* --- SECTION - top_main --- */
 .top_main h1 {
   text-align: center;
   font-size: 4.5em;
   font-weight: 500;
 }
-.main_about {
+.top_main {
   width: 64%;
   margin: 0 auto;
 }
@@ -236,11 +241,22 @@ Input Border Bottom (Focus): #967343*/
   margin-top: 0;
 }
 
-
-
 /* --- SECTION - middle_main --- */
+.middle_main {
+  background-image: url("images/optimized/background-3.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  box-sizing: border-box;
+  height: 20em;
+  color: #fff;
 
+}
 
 
 
 /* --- SECTION - bottom_main --- */
+.bottom_main {
+  width: 64%;
+  margin: 0 auto;
+}

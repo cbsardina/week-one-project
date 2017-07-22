@@ -6,6 +6,7 @@ html, body {
   line-height: 1.8;
   background-color: #F2F1E8;
   font-family: 'Merriweather', serif;
+  color: #131511;
 }
 
 /* ++++++++++++++++++++++++++++++++++++++++++ */
@@ -174,12 +175,12 @@ footer {
 
 /*Background: #F2F1E8
 Text: #131511
-Inline Link: #968772
-Inline Link (Hover): #967343
-Navigation Background: #FFFFFF
-Navigation Text: #2B2F26
-Navigation Text (Hover): #CD5D67
-Navigation Text (Active) #968772
+√ Inline Link: #968772
+√ Inline Link (Hover): #967343
+√ Navigation Background: #FFFFFF
+√ Navigation Text: #2B2F26
+√ Navigation Text (Hover): #CD5D67
+√ Navigation Text (Active) #968772
 Button Background: #968772
 Button Background (Hover): #967343
 Button Text: #F2F1E8
@@ -202,17 +203,37 @@ Input Border Bottom (Focus): #967343*/
   font-weight: 500;
 }
 .main_about {
-  width: 60%;
+  width: 64%;
   margin: 0 auto;
 }
 .top_main img {
-  width: 9em;
+  width: 9.2em;
   height: 7.5em;
   float: left;
   margin: 0 1.2em 1em 0;
 }
+.top_main a {
+  color: #968772;
+}
+.top_main a:hover {
+  color: #967343;
+}
 .top_main p, blockquote {
   font-size: 1.4em;
+}
+.top_main blockquote {
+  border-left: solid 2px gray;
+  margin-left: 0;
+  padding-left: 2em;
+  color: gray;
+}
+.top_main h3 {
+  font-size: 2em;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.top_main p:last-child {
+  margin-top: 0;
 }
 
 

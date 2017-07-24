@@ -21,6 +21,7 @@ header {
   padding: 1em;
   display: flex;
   background-color: #fff;
+  box-shadow: 0px 7px 5px 0px rgba(0,0,5,0.42);
 }
 header nav {
   margin: 0 auto;
@@ -37,6 +38,7 @@ nav a:nth-child(3) {
 }
 nav a:hover {
   color: #CD5D67;
+  transition: 0.7s ease-in;
 }
 nav a:active {
   color: #968772;
@@ -88,24 +90,20 @@ main h2 {
 }
 .product-1 {
   background-image: url("images/optimized/product-1.jpg");
-  background-size: 100% 100%;
+  background-size: cover;
   width: 60%;
-  height: 25em;
-  padding: 1em;
   padding: 0;
 }
 .product-2 {
   background-image: url("images/optimized/product-2.jpg");
-  background-size: 100% 100%;
+  background-size: cover;
   width: 19%;
-  height: 25em;
   padding: 0;
 }
 .product-3 {
   background-image: url("images/optimized/product-3.jpg");
-  background-size: 100% 100%;
+  background-size: cover;
   width: 19%;
-  height: 25em;
   padding: 0;
 }
 
@@ -128,36 +126,30 @@ main h2 {
   color: #fff;
   background-color: rgba( 0, 0, 0, 0.8 );
   font-weight: 400;
-  padding: 1em;
   margin-top: 13em;
 }
 .product-4 {
   background-image: url("images/optimized/product-4.jpg");
-  background-size: 100% 100%;
+  background-size: cover;
   width: 19%;
-  height: 18em;
-  padding: 1em;
   padding: 0;
 }
 .product-5 {
   background-image: url("images/optimized/product-5.jpg");
-  background-size: 100% 100%;
+  background-size: cover;
   width: 19%;
-  height: 18em;
   padding: 0;
 }
 .product-6 {
   background-image: url("images/optimized/product-6.jpg");
-  background-size: 100% 100%;
+  background-size: cover;
   width: 39%;
-  height: 18em;
   padding: 0;
 }
 .product-7 {
   background-image: url("images/optimized/product-7.jpg");
-  background-size: 100% 100%;
+  background-size: cover;
   width: 19%;
-  height: 18em;
   padding: 0;
 }
 
@@ -208,6 +200,7 @@ footer {
 }
 .top_main p, blockquote {
   font-size: 1.2em;
+  font-style: italic;
 }
 .top_main blockquote {
   border-left: solid 2px gray;
@@ -300,7 +293,7 @@ footer {
 }
 .form_section {
   background-color: #fff;
-  margin: 6em auto 3em auto;
+  margin: 8em auto 3em auto;
   padding: 0;
   height: 400px;
   width: 550px;
@@ -336,7 +329,8 @@ footer {
 }
 textarea:focus, input:focus {
   outline: none;
-  border-bottom: 2px solid #967343;:
+  border-bottom: 2px solid #967343;
+  transition: 0.7s ease-in;
 }
 .input_submit {
   border: none;
@@ -349,6 +343,7 @@ textarea:focus, input:focus {
 .input_submit:hover {
   background-color: #967343;
   color: #ffffff;
+  transition: 0.7s ease-in;
 }
 
 /*FIN*/
